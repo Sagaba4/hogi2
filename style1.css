@@ -1,0 +1,52 @@
+.parent {
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.card{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+}
+.head{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    align-items: center;
+    color: white;
+}
+.action{
+    text-align: center;
+    padding: 14px;
+    border-top: 3px solid red;
+}
+.body{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.btn{
+    padding: 4px 14px;
+    outline: none;
+    border: none;
+    font-size: 11px;
+}
+.bg-red{
+    background-color: red;
+    color: white;
+}
+.bg-white{
+    color: red;
+}
+.icon{
+    width: 80%;
+}   
